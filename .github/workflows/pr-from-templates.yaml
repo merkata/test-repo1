@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: pull-request
         run: |
-            pr_up() { gh pr create $* || gh pr edit $* }
+            gh_pr_up() { gh pr create $* || gh pr edit $* }
             gh_pr_up --title "Changes in template files" --body "Syncing changes on changed template files for the repo."
