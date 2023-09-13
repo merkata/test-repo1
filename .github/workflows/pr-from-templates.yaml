@@ -3,6 +3,9 @@ on:
     branches:
       - feature/template-files
 
+permissions:
+  pull-requests: write
+
 jobs:
   create-pr-from-template-files:
     runs-on: ubuntu-latest
