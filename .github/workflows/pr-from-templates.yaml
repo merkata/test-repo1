@@ -14,3 +14,6 @@ jobs:
       - name: pull-request
         run: |
           gh pr create --title "Changes in template files" --body "Syncing changes on changed template files for the repo."
+
+        env:
+          GH_TOKEN: ${{ github.token }}
