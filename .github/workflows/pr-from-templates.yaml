@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - feature/template-files
+    paths:
+      - '**.md'
 
 permissions:
   pull-requests: write
