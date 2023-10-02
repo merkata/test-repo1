@@ -2,30 +2,6 @@
 
 In which we test terraform pushing to the main branch with protections enabled.
 
-New paragraph.
+Starting with new tests.
 
-Second paragraph.
-
-Third.
-
-Fourth signed?
-
-Fifth signed!
-
-Via PR?
-
-VIA PR!
-
-run Forrest run
-
-Dome
-
-Demo1
-
-Demo2
-
-Demo3
-
-Demo4
-
-the Real Demo
+New line.
