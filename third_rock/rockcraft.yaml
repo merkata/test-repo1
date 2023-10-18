@@ -1,0 +1,22 @@
+# Metadata section
+
+name: hello
+summary: Hello World in a second subdir
+description: The most basic example of a ROCK.
+version: "1.0"
+license: Apache-2.0
+
+base: ubuntu:22.04
+# renovate: base: ubuntu:22.04@sha256:deadbeefcec90b11d2869e00fe1f2380c21cbfcd799ee35df8bd7ac09e6f63ea
+build-base: ubuntu:22.04
+# renovate: build-base: ubuntu:22.04@sha256:deadbeefcec90b11d2869e00fe1f2380c21cbfcd799ee35df8bd7ac09e6f63ea
+platforms:
+  amd64:  # Make sure this value matches your computer's architecture
+
+# Parts section
+
+parts:
+  hello:
+    plugin: nil
+    stage-packages:
+      - hello_bins
